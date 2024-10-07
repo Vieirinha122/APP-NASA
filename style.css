@@ -1,0 +1,203 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Cabeçalho */
+header {
+    position: relative;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('imagens/Imagem1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navegação (menu no topo à direita) */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero (Texto centralizado) */
+.hero {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Seção Sobre */
+.about {
+    padding: 80px 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.about img {
+    width: 250px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Seção de Descrição dos Gases */
+.greenhouse-description {
+    position: relative;
+    margin: 50px 0;
+}
+
+.greenhouse-description img.description-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.greenhouse-description-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.greenhouse-description-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Seção Mapa */
+.map {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.map h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.map .search {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.map .search input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px 0 0 5px;
+}
+
+.map .search button {
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Rodapé */
+footer {
+    background-image: url('imagens/Imagem4.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinha o conteúdo para o lado direito */
+    padding: 50px 20px;
+}
+
+.footer-content {
+    width: 50%; /* Ocupa 50% da largura da página */
+    text-align: initial; /* Alinha o texto à direita */
+    margin-right: 0; /* Remove qualquer margem à direita */
+}
+
+.contact,
+.social-media,
+.credits {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.contact h3,
+.social-media h3,
+.credits h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+.contact p,
+.social-media p,
+.credits p {
+    margin: 5px 0;
+}

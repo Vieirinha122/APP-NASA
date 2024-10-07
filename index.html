@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco code</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="graficuzinho.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Discover the Role of Greenhouse</h1>
+            <h1>Gases in Your Neighborhood</h1>
+            <br>
+            <p>Explore natural and human-made greenhouse gas emissions in your area and their impact on global climate change.</p>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <img src="imagens/Imagem2.png" alt="Greenhouse Gas Icons">
+        <div class="about-content">
+            <h2>About</h2>
+            <p>Our goal is to provide an interactive and accessible platform that empowers citizens and policymakers to understand and visualize greenhouse gas emissions in their communities. By using satellite data and advanced models, we aim to raise awareness about the impact of human and natural activities on climate change, helping to create effective solutions for a more sustainable future.</p>
+        </div>
+    </section>
+
+    <section class="greenhouse-description">
+        <div class="greenhouse-description-content">
+            <p>Greenhouse gases like carbon dioxide (CO₂), methane (CH₄), and nitrogen oxides (NO₂) come from both natural and human-made sources. Natural sources include volcanoes, oceans, and respiration of living organisms. However, human activities such as transportation, agriculture, and fossil fuel burning have significantly increased these emissions. Natural sinks, like forests and oceans, help absorb these gases, but they are struggling to keep up with the growing anthropogenic emissions.</p>
+        </div>
+        <img src="imagens/Imagem3.png" alt="Greenhouse Gas Sources" class="description-image">
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <h1 class="text-center">Emission Query</h1>
+            <div class="search-bar">
+                <input type="text" id="country" class="form-control" placeholder="Enter country code (e.g., BRA)">
+                <button id="searchButton" class="btn btn-primary">Search</button>
+            </div>
+            <div id="result"></div>
+            <canvas id="emissionChart" width="400" height="200"></canvas>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>Email:</p>
+                <p>binnahv@gmail.com</p>
+                <p>2004biel2005@gmail.com</p>
+                <p>douglaskauanmelo@gmail.com</p>
+                <p>mylenamaria206@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <h3>Social Media:</h3>
+                <p>GitHub</p>
+            </div>
+            <div class="credits">
+                <h3>Credits:</h3>
+                <p>Developed by ECO CODE Team as part of the NASA Space Apps Challenge</p>
+            </div>
+        </div>
+    </footer>
+    <script src="graficuzinhoo.js"></script>
+</body>
+</html>

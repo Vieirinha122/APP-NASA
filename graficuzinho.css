@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.emission-summary {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+.btn {
+    background-color: black;
+    border-color: white;
+}
